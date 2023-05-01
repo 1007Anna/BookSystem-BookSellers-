@@ -1,0 +1,51 @@
+body {
+    background-color: azure;
+}
+
+.zone {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 480px;
+
+
+    .card {
+        height: 450px;
+        width: 800px;
+
+        .nav {
+            height: 60px;
+
+            
+            .nav-margin {
+                margin-top: 20px;
+            }
+        }
+
+        
+    }
+
+
+    .input-area{
+        width: 400px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .table {
+        margin: auto;
+        width: 700px;
+        margin-top: 50px;
+    }
+
+
+    .input-update {
+        width: 60px;
+    }
+
+    
+
+
+    
+}

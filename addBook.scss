@@ -1,0 +1,35 @@
+body {
+    margin: 0px 100px;
+    background-color: azure;
+}
+
+.card {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h5 {
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    .inputArea {
+        margin: auto;
+        width: 500px;
+
+        span {
+        width: 100px;
+        }
+    }   
+
+    .btnArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>價錢修增</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Inventory&price.css">
+</head>
+<body>
+<div class="zone">
+    <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link nav-margin" href="./inventory.html">庫存更新</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-margin" aria-current="true">價錢更新</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body ">
+            <div class="input-group mb-3 input-area">
+                <span class="input-group-text" id="basic-addon3">ISBN</span>
+                <input type="text" class="form-control input-text" id="isbnInput" >
+                <button class="btn btn-outline-secondary" type="button" id="search">Search</button>
+              </div>
+          <table class="table table-hover">
+            <thead>
+                <tr>
+                  <th scope="col">ISBN</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Author</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Inventory</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" id="isbn">No.</th>
+                  <td id="title">#</td>
+                  <td id="author">#</td>
+                  <td id="price">QTY</td>
+                  <td id="inventory">QTY</td>
+                </tr>
+                <tr>
+                    <th scope="row">更新</th>
+                    <td></td>
+                    <td></td>
+                    <td><input type="number" class="input-update" id="priceQTY"></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+          </table>
+          <button class="btn btn-outline-secondary update-btn" id="update">update</button>       
+        </div>
+      </div>
+</div>
+
+
+
+    <script src="./price.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

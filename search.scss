@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0 100px;
+    background-color: azure;
+}
+
+.area01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 150px;
+    width: 500px;
+    margin: auto;
+    margin-top: 80px;
+
+    .searchArea{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+
+        .btn01 {
+            width: 100px;
+        }
+
+        .btn02 {
+            width: 50px;
+        }
+    }
+}
+
+.area02 {
+    background-color: rgb(209, 219, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+
+    .table {
+        width: 550px;
+    }
+}

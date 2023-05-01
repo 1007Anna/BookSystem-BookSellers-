@@ -1,0 +1,27 @@
+body {
+  margin: 0px 100px;
+  background-color: azure;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card h5 {
+  text-align: center;
+  letter-spacing: 5px;
+}
+.card .inputArea {
+  margin: auto;
+  width: 500px;
+}
+.card .inputArea span {
+  width: 100px;
+}
+.card .btnArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=addBook.css.map */

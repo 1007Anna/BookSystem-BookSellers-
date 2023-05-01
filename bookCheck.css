@@ -1,0 +1,33 @@
+body {
+  background-color: azure;
+}
+
+.zone {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  height: 480px;
+}
+.zone .card {
+  height: 450px;
+  width: 800px;
+}
+.zone .card .nav {
+  height: 60px;
+}
+.zone .card .nav .nav-margin {
+  margin-top: 20px;
+}
+.zone .input-area {
+  width: 400px;
+  margin: auto;
+  margin-top: 30px;
+}
+.zone .table {
+  margin: auto;
+  width: 700px;
+  margin-top: 50px;
+}
+.zone .input-update {
+  width: 60px;
+}/*# sourceMappingURL=bookCheck.css.map */
